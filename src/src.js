@@ -1,1 +1,1 @@
-var my_var = 1; // error
+var name_of_city = 'Belgrade'; // error
