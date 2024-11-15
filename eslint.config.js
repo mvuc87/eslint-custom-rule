@@ -1,13 +1,13 @@
 "use strict";
 
-import jsNamingConvention from "./js-naming-convention/index.js";
+import jsNamingConventionPlugin from "./js-naming-convention/index.js";
 
 export default [{
   files: ["src/**/*.js"],
   plugins: {
-    "js-naming-convention": jsNamingConvention,
+    "js-naming-convention-plugin": jsNamingConventionPlugin,
   },
   rules: {
-    "js-naming-convention/no-underscore-in-var-name": "error",
+    "js-naming-convention-plugin/no-underscore-in-var-name": "error",
   },
 }];
