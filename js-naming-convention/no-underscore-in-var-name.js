@@ -30,6 +30,9 @@ function createReport(context, identifier) {
 export default {
   meta: {
     type: "suggestion", // "problem" or "layout"
+    docs: {
+      url: "https://github.com/mvuc87/eslint-custom-rule/blob/main/js-naming-convention/no-underscore-in-var-name.md"
+    },
     hasSuggestions: true, // requires "suggest" in a report
     fixable: "code" // or "whitespace", categorization purposes
   },
