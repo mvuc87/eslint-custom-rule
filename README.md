@@ -14,9 +14,4 @@ Alternativelly, open terminal, navigate to the root of the project and execute:
 ```
 > npx eslint
 ```
-The command above should list an error in the `src/code.js` file:
-```
-  1:5  error  Underscore in a variable name is not a part of the Javascript naming convention  js-naming-convention/no-underscore-in-var-name
-
-✖ 1 problem (1 error, 0 warnings)
-```
+The command above should list an error in the `src/code.js` file.
