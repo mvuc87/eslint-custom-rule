@@ -1,13 +1,13 @@
 "use strict";
 
-import noCStylePlugin from "./no-c-style/plugin.js";
+import jsNamingConvention from "./js-naming-convention/index.js";
 
 export default [{
-  files: ["**/*.js"],
+  files: ["src/**/*.js"],
   plugins: {
-    "no-c-style": noCStylePlugin,
+    "js-naming-convention": jsNamingConvention,
   },
   rules: {
-    "no-c-style/no-underscore-in-var": "error",
+    "js-naming-convention/no-underscore-in-var-name": "error",
   },
 }];
